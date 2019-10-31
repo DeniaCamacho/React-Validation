@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px 40px;
+  width: 800px;
+  margin: auto;
+  background: rgb(67, 67, 67);
+}
+form {
+  display: flex;
+
+  flex-direction: column;
+}
+h1 {
+  color: white;
+}
+.err {
+  border: red 1px solid;
+}
+.error {
+  color: red;
+}
+label {
+  padding-top: 20px;
+  color: white;
+}
+span {
+  margin: 1px;
+}
+input {
+  outline: none;
+  color: #ccc;
+  margin-top: 5px;
+  padding: 10px;
+  background: rgb(67, 67, 67);
+}
+button {
+  padding: 18px;
+  width: 200px;
+  margin-top: 71px;
+  margin: auto;
+  margin-bottom: 30px;
+  background: rgb(67, 67, 67);
+}
+input::placeholder {
+  color: white;
+}
